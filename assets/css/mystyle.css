@@ -1,0 +1,58 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+body {
+    background-color: #3f859a;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+main .title {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 30px;
+    color: #b6b6b6;
+}
+main .png {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: right;
+}
+main .png img {
+    width: 35%;
+    height: auto;
+    margin-right: 300px;
+}
+@media (max-width: 500px) {
+    main .title {
+        font-size: 15px;
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        overflow: visible;
+    }
+    main .title {
+        font-size: 25px;
+        justify-content: center;
+    }
+    main .png {
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    main .png img {
+        width: 65%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
