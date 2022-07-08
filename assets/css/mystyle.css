@@ -17,7 +17,7 @@ main .title {
     width: 100%;
     font-family: 'Oxygen', sans-serif;
     font-size: 30px;
-    color: #b6b6b6;
+    color: #fffdfd;
 }
 main .png {
     display: flex;
